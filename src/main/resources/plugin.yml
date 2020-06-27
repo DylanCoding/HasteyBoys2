@@ -1,0 +1,14 @@
+name: HasteyBoys
+version: ${project.version}
+main: me.dylan.hasteyboys.HasteyBoys
+api-version: 1.13
+authors: [Interuptings]
+description: HasteyBoys UHC Scenario
+
+commands:
+  hasteyboys:
+    permission: hasteyboys.manage
+    description: Allows you to toggle hasteyboys
+    aliases:
+      - hb
+      - hastey

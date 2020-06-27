@@ -1,0 +1,7 @@
+messages:
+  prefix: '&4UHC &8>>&7 '
+
+  args: '&cWrong Arguments! /hasteyboys <enable/disable/toggle>'
+
+  enabled: '&aHasteyBoys &7has been &aenabled&7!'
+  disabled: '&aHasteyBoys &7has been &cdisabled&7!'
