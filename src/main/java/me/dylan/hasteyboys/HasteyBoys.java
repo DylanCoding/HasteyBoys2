@@ -12,7 +12,7 @@ public final class HasteyBoys extends JavaPlugin {
 
     @Getter
     @Setter
-    private boolean enabled;
+    private boolean hasteyBoys;
 
     @Override
     public void onEnable() {

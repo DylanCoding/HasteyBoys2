@@ -24,15 +24,15 @@ public class HasteyBoysCommand implements CommandExecutor {
 
         switch (args[0].toLowerCase()) {
             case "enable":
-                hb.setEnabled(true);
+                hb.setHasteyBoys(true);
                 sender.sendMessage(Locale.PREFIX + Locale.HASTEYBOYS_ENABLE);
                 break;
             case "disable":
-                hb.setEnabled(false);
+                hb.setHasteyBoys(false);
                 sender.sendMessage(Locale.PREFIX + Locale.HASTEYBOYS_DISABLE);
                 break;
             case "toggle":
-                hb.setEnabled(!hb.isEnabled());
+                hb.setHasteyBoys(!hb.isHasteyBoys());
                 sender.sendMessage(Locale.PREFIX + (hb.isEnabled() ? Locale.HASTEYBOYS_ENABLE : Locale.HASTEYBOYS_DISABLE));
                 break;
             case "info":

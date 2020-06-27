@@ -19,7 +19,7 @@ public class CraftingListener implements Listener {
 
     @EventHandler
     public void on(PrepareItemCraftEvent event) {
-        if (!hb.isEnabled()) return;
+        if (!hb.isHasteyBoys()) return;
         if (event.getRecipe() == null) return;
 
         CraftingInventory craftingInventory = event.getInventory();
