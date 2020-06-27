@@ -1,16 +1,18 @@
 package me.dylan.hasteyboys.locale;
 
+import lombok.experimental.UtilityClass;
 import me.dylan.hasteyboys.HasteyBoys;
 import org.bukkit.configuration.Configuration;
 
+@UtilityClass
 public class Locale {
-    public static String PREFIX;
+    public String PREFIX;
 
-    public static String WRONG_ARGS;
-    public static String HASTEYBOYS_ENABLE;
-    public static String HASTEYBOYS_DISABLE;
+    public String WRONG_ARGS;
+    public String HASTEYBOYS_ENABLE;
+    public String HASTEYBOYS_DISABLE;
 
-    public Locale(HasteyBoys hb) {
+    public void init(HasteyBoys hb) {
         Configuration configuration = hb.getConfig();
 
         PREFIX = configuration.getString("messages.prefix", "&4UHC &8>>&7 ");

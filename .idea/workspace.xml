@@ -10,23 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d752e887-5eb1-47db-813d-911ec5be6884" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HasteyBoys2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HasteyBoys2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d752e887-5eb1-47db-813d-911ec5be6884" name="Default Changelist" comment="Fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/HasteyBoys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/HasteyBoys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/commands/HasteyBoysCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/commands/HasteyBoysCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/listeners/CraftingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/listeners/CraftingListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/locale/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dylan/hasteyboys/locale/Locale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +95,7 @@
       <workItem from="1593222360895" duration="2456000" />
       <workItem from="1593224873645" duration="133000" />
       <workItem from="1593225011606" duration="121000" />
-      <workItem from="1593225137579" duration="201000" />
+      <workItem from="1593225137579" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1593224134971</created>
@@ -138,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593225192071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixes">
+      <created>1593225352166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593225352166</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="279" key="#Project_Structure" timestamp="1593225260194">
@@ -170,26 +165,26 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1085" y="411" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593223249253" />
-    <state width="1258" height="404" key="GridCell.Tab.0.bottom" timestamp="1593225264291">
+    <state width="1258" height="404" key="GridCell.Tab.0.bottom" timestamp="1593225360379">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1258" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225264291" />
-    <state width="1258" height="404" key="GridCell.Tab.0.center" timestamp="1593225264291">
+    <state width="1258" height="404" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225360379" />
+    <state width="1258" height="404" key="GridCell.Tab.0.center" timestamp="1593225360378">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1258" height="404" key="GridCell.Tab.0.center/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225264291" />
-    <state width="1258" height="404" key="GridCell.Tab.0.left" timestamp="1593225264291">
+    <state width="1258" height="404" key="GridCell.Tab.0.center/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225360378" />
+    <state width="1258" height="404" key="GridCell.Tab.0.left" timestamp="1593225360378">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1258" height="404" key="GridCell.Tab.0.left/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225264291" />
-    <state width="1258" height="404" key="GridCell.Tab.0.right" timestamp="1593225264291">
+    <state width="1258" height="404" key="GridCell.Tab.0.left/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225360378" />
+    <state width="1258" height="404" key="GridCell.Tab.0.right" timestamp="1593225360378">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1258" height="404" key="GridCell.Tab.0.right/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225264291" />
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593225195071">
+    <state width="1258" height="404" key="GridCell.Tab.0.right/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225360378" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2" timestamp="1593225355466">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225195071" />
+    <state x="872" y="438" key="Vcs.Push.Dialog.v2/0.0.2560.1410/-1920.309.1920.1050@0.0.2560.1410" timestamp="1593225355466" />
     <state x="1089" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593224156946">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>

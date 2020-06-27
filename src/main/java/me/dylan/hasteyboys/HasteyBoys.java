@@ -21,7 +21,7 @@ public final class HasteyBoys extends JavaPlugin {
         registerCommands();
         registerListeners();
 
-        new Locale(this);
+        Locale.init(this);
 
         getLogger().info("");
     }
